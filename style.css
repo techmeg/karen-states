@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  /* border: 1px solid rgb(80, 78, 78); */
+}
+
+:root {
+  --white: white;
+  --whitesmoke: whitesmoke;
+  --ivory: ivory;
+  --beige: #d0c5ba;
+  --lightgreen: rgb(210, 247, 210);
+  --lime: rgb(191, 246, 191);
+  --mint: rgb(140, 239, 154);
+  --bluegrey: rgb(217, 230, 243);
+  --sky: rgb(189, 231, 245);
+  --lightblue: rgb(177, 207, 237);
+  --lavendar: rgb(202, 199, 237);
+  --mauve: rgb(155, 151, 203);
+  --border: rgb(161, 159, 159);
+}
+.white {
+  background-color: var(--white);
+}
+.whitesmoke {
+  background-color: var(--whitesmoke);
+}
+.ivory {
+  background-color: var(--ivory);
+}
+.beige {
+  background-color: var(--beige);
+}
+.lightgreen {
+  background-color: var(--lightgreen);
+}
+.lime {
+  background-color: var(--lime);
+}
+.mint {
+  background-color: var(--mint);
+}
+.bluegrey {
+  background-color: var(--bluegrey);
+}
+.sky {
+  background-color: var(--sky);
+}
+.lightblue {
+  background-color: var(--lightblue);
+}
+.lavendar {
+  background-color: var(--lavendar);
+}
+.mauve {
+  background-color: var(--mauve);
+}
+
+body {
+  background-color: whitesmoke;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin-right: 2rem;
+}
+
+nav ul li {
+  margin-right: 2rem;
+}
+.quilt {
+  background-color: rgb(228, 221, 200);
+  display: grid;
+  grid-template-rows: 15px 85px 15px 85px 15px 85px 15px 85px 15px 85px 15px 85px 15px 85px 15px 85px 15px;
+  height: 815px;
+  margin: 3rem;
+  width: 615px;
+}
+.flex {
+  display: flex;
+}
+.square {
+  aspect-ratio: 1;
+  width: 85px;
+}
+.setting {
+  aspect-ratio: 1;
+  border: 1px solid var(--border);
+  width: 15px;
+  background-color: lime;
+}
+
+.sash-h {
+  border: 1px solid var(--border);
+  height: 15px;
+  width: 85px;
+}
+
+.sash-v {
+  border: 1px solid var(--border);
+  height: 85px;
+  width: 15px;
+}
